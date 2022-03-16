@@ -1,0 +1,13 @@
+set number
+syntax on
+set tabstop=4
+set autoindent
+set expandtab
+set softtabstop=4
+set ruler
+"set cursorline
+:autocmd BufNewFile *.asm 0r ~/.vim/templates/skeleton.asm
+:autocmd BufNewFile *.c 0r ~/.vim/templates/skeleton.c
+:autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
+:autocmd BufNewFile *.h 0r ~/.vim/templates/skeleton.h
+:autocmd BufNewFile makefile 0r ~/.vim/templates/skeletonmakefile

@@ -1,0 +1,5 @@
+alias cnp='putty /dev/ttyACM0 -serial -sercfg 115200,8,1,n,N'
+alias p1='cd ~/projects/Basics'
+alias p2='cd ~/workspace_v11/MultiEmbed'
+alias sh='shutdown now'
+alias su='systemctl suspend'

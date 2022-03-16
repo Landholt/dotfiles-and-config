@@ -1,0 +1,11 @@
+#foo: foo.asm
+#	yasm -g dwarf2 -f elf64 foo.asm -l foo.lst && ld -g -o foo foo.o bar.o && ./foo
+
+#foo: foo.c
+#	gcc -std=c99 -g foo.c -o foo -lm && ./foo
+
+#foo: foo.cpp
+#	g++ -g foo.cpp -o foo && ./foo
+
+#clean:
+#	rm foo && clear
